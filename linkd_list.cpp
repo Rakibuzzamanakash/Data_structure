@@ -66,6 +66,8 @@ temp->next = nodeToInsert;
 
 void deletedNode(int position,Node* &hade){
 
+    // delete node
+
  if(position == 1){
     Node* temp = hade;
     hade = hade->next;
